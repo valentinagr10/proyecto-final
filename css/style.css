@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+body {
+  font-family: "Lora", serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #A0937D;
+  color: black;
+  font-family: "Lora", serif;
+}
+header .soundwave {
+  width: 200px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+header nav ul li a:hover {
+  color: #000000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: serif;
+}
+.container .taylor, .container .billie {
+  border: 2px solid #b6c7aa;
+  background-color: #B6C7AA;
+  box-shadow: 0 0 5px black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  width: 900px;
+}
+.container .taylor h2, .container .billie h2 {
+  font-family: "Lora", serif;
+}
+.container .taylor .container-2, .container .billie .container-2 {
+  overflow: auto;
+}
+.container .taylor .container-2 .img-index, .container .billie .container-2 .img-index {
+  float: left;
+  margin-right: 10px;
+  width: 350px;
+  border-radius: 20px;
+}
+.container .taylor .container-2 p, .container .billie .container-2 p {
+  text-align: justify;
+}
+.int-sem {
+  padding: 10px;
+  margin: 10px;
+}
+.int-sem .boton-int {
+  border: 1px #000000 solid;
+  background-color: #B6C7AA;
+  color: black;
+  text-decoration: none;
+  padding: 15PX;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  transition: color 0.3s ease;
+}
+.int-sem .boton-int:hover {
+  background-color: #9fae95;
+}
+
+.container-art {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lora", serif;
+}
+.container-art h1 {
+  border: 2px solid #b6c7aa;
+  background-color: #B6C7AA;
+  box-shadow: 0 0 5px black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.container-art .carousel-inner {
+  border-radius: 30px;
+  width: 900px;
+}
+.container-art .carousel-inner .carousel-item {
+  width: 900px;
+}
+.container-art .texto-artistas {
+  border: 2px solid #b6c7aa;
+  background-color: #B6C7AA;
+  box-shadow: 0 0 5px black;
+  border-radius: 20px;
+  padding: 10px;
+  width: 1200px;
+}
+
+.boton, .boton-2 {
+  background-color: #0B5ED7;
+  padding: 15px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  color: black;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.boton-2 {
+  right: 120px;
+}
+
+.info-qc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: "Lora", serif;
+}
+.info-qc .sobrenos, .info-qc .unite, .info-qc .medio .comoemp, .info-qc .medio .mision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #b6c7aa;
+  background-color: #B6C7AA;
+  box-shadow: 0 0 5px black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 700px;
+}
+.info-qc .medio {
+  display: flex;
+  flex-direction: row;
+}
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+  padding: 10px;
+  font-family: "Lora", serif;
+}
+.contenedor .titulo h1 {
+  font-size: 26px;
+  border: 2px solid #b6c7aa;
+  background-color: #B6C7AA;
+  box-shadow: 0 0 5px black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 1200px;
+}
+.contenedor .interaccion {
+  display: table;
+  text-align: center;
+  border: 2px solid #b6c7aa;
+  background-color: #B6C7AA;
+  box-shadow: 0 0 5px black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+.contenedor .interaccion h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.contenedor .interaccion h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.contenedor .interaccion .texto {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contenedor .interaccion button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.contenedor .interaccion button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+}
+
+.generos {
+  font-family: "Lora", serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.generos h1 {
+  border: 2px solid #b6c7aa;
+  background-color: #b6c7aa;
+  box-shadow: 0 0 5px black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.generos .generos2, .generos .generos5, .generos .generos4, .generos .generos3 {
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.generos .generos2 .generos-bloque, .generos .generos5 .generos-bloque, .generos .generos4 .generos-bloque, .generos .generos3 .generos-bloque {
+  border: 2px solid #b6c7aa;
+  background-color: #B6C7AA;
+  box-shadow: 0 0 5px black;
+  border-radius: 20px;
+  padding: 10px;
+  width: 166px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.generos .generos2 .generos-bloque:hover, .generos .generos5 .generos-bloque:hover, .generos .generos4 .generos-bloque:hover, .generos .generos3 .generos-bloque:hover {
+  background-color: #9fae95;
+}
+.gen-info {
+  display: flex;
+  justify-content: center;
+}
+.gen-info p {
+  border: 2px solid #b6c7aa;
+  background-color: #B6C7AA;
+  box-shadow: 0 0 5px black;
+  border-radius: 20px;
+  padding: 10px;
+  width: 1200px;
+}
+
+.contacto {
+  border: 2px solid #b6c7aa;
+  background-color: #B6C7AA;
+  box-shadow: 0 0 5px black;
+  border-radius: 10px;
+  width: 700px;
+}
+.contacto .formulario {
+  padding: 5px;
+}
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  display: table;
+  width: 100%;
+  height: auto;
+  background-color: #A0937D;
+  color: black;
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
