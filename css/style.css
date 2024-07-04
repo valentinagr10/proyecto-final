@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 body {
   font-family: "Lora", serif;
@@ -100,6 +101,7 @@ header nav ul li a:hover {
   box-shadow: 0 0 5px black;
   border-radius: 10px;
   padding: 10px;
+  font-size: 30px;
 }
 .container-art .carousel-inner {
   border-radius: 30px;
@@ -165,6 +167,7 @@ header nav ul li a:hover {
   justify-content: center;
   padding: 10px;
   font-family: "Lora", serif;
+  min-height: 80vh;
 }
 .contenedor .titulo h1 {
   font-size: 26px;
@@ -293,6 +296,101 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (max-width: 1280px) {
+  .info-qc .sobrenos, .info-qc .medio .mision, .info-qc .medio .comoemp, .info-qc .unite {
+    display: flex;
+    width: 100%;
+  }
+  .info-qc .unite {
+    display: flex;
+    width: 100%;
+  }
+  .info-qc .medio {
+    display: flex;
+    width: 100%;
+  }
+  .container-art {
+    padding: 10px;
+  }
+  .container-art .texto-artistas {
+    display: flex;
+    width: 100%;
+  }
+  .gen-info {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+  }
+  .contenedor .titulo h1 {
+    width: 100%;
+  }
+}
+@media (max-width: 960px) {
+  .container .taylor, .container .billie {
+    width: 100%;
+  }
+  .container .billie {
+    width: 100%;
+  }
+  .info-qc .sobrenos, .info-qc .medio .mision, .info-qc .medio .comoemp, .info-qc .unite {
+    display: flex;
+    width: 100%;
+  }
+  .info-qc .unite {
+    display: flex;
+    width: 100%;
+  }
+  .info-qc .medio {
+    display: flex;
+    width: 100%;
+  }
+  .gen-info {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+  }
+  .container-art .carousel-inner {
+    border-radius: 30px;
+    width: 100%;
+  }
+  .container-art .carousel-inner .carousel-item {
+    width: 100%;
+  }
+  .taylor .container-2 .img-index, .container .billie .container-2 .img-index {
+    width: 200px;
+  }
+}
+@media (max-width: 730px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .container-2 {
+    width: 100%;
+  }
+  .container .container-2 .img-index {
+    width: 200px;
+  }
+  .contacot {
+    display: flex;
+    justify-content: center ¡important;
+    width: 100%;
+    padding: 10px;
+  }
+}
+@media (max-width: 540px) {
+  .container-art h1 {
+    font-size: 20px;
+  }
+  .generos h1 {
+    font-size: 20px;
+  }
+  .contenedor .titulo h1 {
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

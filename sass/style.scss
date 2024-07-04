@@ -109,13 +109,14 @@ header {
         box-shadow: 0 0 5px black;
         border-radius: 10px;
         padding: 10px;
+        font-size: 30px;
     }
     .carousel-inner {
-    border-radius: 30px;
-    width: 900px;
-    .carousel-item {
+        border-radius: 30px;
         width: 900px;
-    }
+        .carousel-item {
+            width: 900px;
+        }
     }
     .texto-artistas {
         border: 2px solid #b6c7aa;
@@ -124,7 +125,6 @@ header {
         border-radius: 20px;
         padding: 10px;
         width: 1200px;
-
     }
 }
 
@@ -187,6 +187,7 @@ header {
     justify-content: center;
     padding: 10px;
     font-family: "Lora", serif;
+    min-height: 80vh;
     .titulo {
         h1 {
             font-size: 26px;
@@ -336,3 +337,128 @@ form {
         flex-direction: column;
         align-items: center;
 }
+
+@media (max-width: 1280px) {
+    .info-qc {
+       .sobrenos {
+        display: flex;
+        width: 100%;
+        }
+        .unite {
+            display: flex;
+            width: 100%;
+        }
+        .medio {
+            display: flex;
+            width: 100%;
+        }
+    }
+    .container-art {
+        padding: 10px;
+        .texto-artistas {
+            display: flex;
+            width: 100%;
+        }
+    }
+    .gen-info {
+       display: flex;
+       width: 100%;
+       padding: 10px;
+    }
+    .contenedor {
+        .titulo h1 {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .container {
+        .taylor {
+            width: 100%;
+        }
+        .billie {
+            width: 100%;
+        } 
+    }
+    
+    .info-qc {
+        .sobrenos {
+         display: flex;
+         width: 100%;
+         }
+         .unite {
+            display: flex;
+            width: 100%;
+         }
+         .medio {
+             display: flex;
+             width: 100%;
+         }
+     }
+     .gen-info {
+        display: flex;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .container-art {
+        .carousel-inner {
+            border-radius: 30px;
+            width: 100%;
+            .carousel-item {
+                width: 100%;
+            }
+        }
+    } 
+    .taylor {
+        .container-2 {
+            .img-index {
+                width: 200px;
+            }
+        }
+    }
+}
+
+@media (max-width: 730px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container {
+        .container-2 {
+            width: 100%;
+            .img-index {
+                width: 200px;
+            }
+        }
+    }
+    .contacot {
+        display: flex;
+        justify-content: center ¡important;        
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container-art {
+        h1 {
+            font-size: 20px;
+        }
+    }
+    .generos {
+        h1 {
+            font-size: 20px;
+        }
+    }
+    .contenedor {
+        .titulo {
+            h1 {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
